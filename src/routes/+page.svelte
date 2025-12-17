@@ -6,19 +6,19 @@
 <div class="w-full overflow-hidden">
     <!-- Header -->
     <header class="w-full py-8 flex flex-col items-center justify-center text-center">
-        <h1 class="text-4xl font-serif font-medium tracking-tight">Atoms.</h1>
-        <p class="text-xs uppercase tracking-widest text-gray-500 mt-2 font-sans">The official Atomic Habits app</p>
+        <h1 class="text-4xl font-serif font-medium tracking-tight">Sixteen.</h1>
+        <p class="text-xs uppercase tracking-widest text-gray-500 mt-2 font-sans">New York's #1 Focus & Fitness App</p>
     </header>
 
     <!-- Hero Section -->
     <section class="max-w-7xl mx-auto px-6 pt-12 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="flex flex-col items-start space-y-8">
             <h2 class="text-6xl md:text-7xl font-serif leading-[1.1]">
-                Tiny changes,<br/>
-                remarkable results.
+                Earn your<br/>
+                screen time.
             </h2>
             <p class="text-gray-600 max-w-md leading-relaxed">
-                Based on the easy and proven habit change method from the NYT best-seller, Atom's helps you build good habits and break bad ones.
+                Sixteen transforms phone addiction into physical discipline. Want to unlock Instagram? Do 20 pushups. Your distractions now cost movement, not just willpower.
             </p>
             <div class="pt-2">
                 <AppButtons />
@@ -35,24 +35,29 @@
             
             <PhoneMockup>
                 <!-- Mockup Content -->
-                <div class="flex flex-col h-full p-6 items-center pt-16">
-                    <h3 class="text-3xl font-serif text-center mb-2">Create your<br>first habit</h3>
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mt-4">
-                        <span class="text-2xl">☀️</span>
+                <div class="flex flex-col h-full p-6 items-center pt-16 justify-center">
+                    <div class="w-20 h-20 bg-red-100 rounded-2xl flex items-center justify-center mb-6">
+                        <span class="text-4xl">📱</span>
                     </div>
+                    <h3 class="text-2xl font-serif text-center mb-2">Instagram is locked</h3>
+                    <p class="text-sm text-gray-500 text-center mb-8">Do 20 pushups to unlock</p>
+                    <div class="w-full bg-gray-100 rounded-full h-3 mb-4">
+                        <div class="bg-black h-3 rounded-full" style="width: 45%"></div>
+                    </div>
+                    <p class="text-xs text-gray-400">9 / 20 pushups</p>
                     <button class="bg-black text-white px-8 py-3 rounded-full w-full font-medium mt-auto mb-12">
-                        Create Habit ->
+                        Continue Exercise
                     </button>
                 </div>
             </PhoneMockup>
         </div>
     </section>
 
-    <!-- Dark Section (Laws) -->
+    <!-- Dark Section (Principles) -->
     <section class="bg-[#1C1C1C] text-white py-24 overflow-hidden relative">
         <div class="max-w-7xl mx-auto px-6 mb-16">
             <p class="text-xl md:text-2xl font-serif max-w-lg leading-relaxed text-gray-300">
-                Atoms is the only app built on scientifically-backed laws of habit change.
+                Built by a rogue team designing software that fights back against digital junk.
             </p>
         </div>
 
@@ -62,8 +67,8 @@
                  <div class="inline-flex items-baseline">
                     <span class="text-[120px] md:text-[180px] font-serif font-light text-transparent stroke-text opacity-50" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">1.</span>
                     <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Make it</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">obvious.</span>
+                        <span class="text-5xl md:text-7xl font-serif">Friction,</span>
+                        <span class="text-5xl md:text-7xl font-serif font-bold">not force.</span>
                     </div>
                  </div>
                  
@@ -71,8 +76,8 @@
                  <div class="inline-flex items-baseline ml-12 md:ml-24">
                     <span class="text-[120px] md:text-[180px] font-serif font-light text-[#E6D8C0]">2.</span>
                     <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Make it</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">attractive.</span>
+                        <span class="text-5xl md:text-7xl font-serif">Movement,</span>
+                        <span class="text-5xl md:text-7xl font-serif font-bold">not shame.</span>
                     </div>
                  </div>
 
@@ -101,19 +106,21 @@
             <!-- Feature 1 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We know<br>what really<br>works</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Friction-based<br>design, not<br>blocking</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We don't rely on guesswork. Our principles of habit change make it obvious, attractive, easy, and satisfying.
+                        We don't block your apps. We make you earn them. Every unlock requires physical movement, creating mindful friction instead of guilt-based restrictions.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Stacked Rocks -->
+                    <!-- Illustration Placeholder: Exercise -->
                     <div class="w-64 h-64 relative">
                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M60,140 Q50,120 70,110 Q90,100 110,110 Q130,120 120,140 Q110,160 90,160 Q70,160 60,140 Z" />
-                            <path d="M75,105 Q65,85 85,75 Q105,65 125,75 Q145,85 135,105 Q125,125 105,125 Q85,125 75,105 Z" />
-                            <path d="M90,70 Q80,50 100,40 Q120,30 140,40 Q160,50 150,70 Q140,90 120,90 Q100,90 90,70 Z" />
+                            <circle cx="100" cy="60" r="20" />
+                            <path d="M100,80 L100,130" />
+                            <path d="M70,100 L130,100" />
+                            <path d="M100,130 L80,170" />
+                            <path d="M100,130 L120,170" />
                         </svg>
                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
                     </div>
@@ -123,20 +130,21 @@
             <!-- Feature 2 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We meet<br>you where<br>you are</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Screen Time<br>Bank saves<br>your progress</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Whether you're just starting or already on a roll, we have the right tools to help you find your balance.
+                        Earned time doesn't disappear. Bank up to 1 hour of screen time for later use. Your discipline today becomes freedom tomorrow.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Handshake -->
+                    <!-- Illustration Placeholder: Bank/Savings -->
                     <div class="w-64 h-64 relative">
                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M40,100 L80,100 L100,80 L120,100 L160,100" />
-                            <path d="M40,120 L80,120 L100,140 L120,120 L160,120" />
-                             <!-- Simplified abstract representation -->
-                             <circle cx="100" cy="110" r="40" class="stroke-black" />
+                            <rect x="50" y="80" width="100" height="80" rx="10" />
+                            <path d="M70,100 L130,100" />
+                            <path d="M70,120 L130,120" />
+                            <path d="M70,140 L130,140" />
+                            <circle cx="100" cy="60" r="15" />
                         </svg>
                          <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
                     </div>
@@ -146,19 +154,21 @@
             <!-- Feature 3 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We evolve<br>as you<br>evolve</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Emergency<br>Keys for<br>real life</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Building tiny habits leads to remarkable results. We scale up just like you do, one step at a time.
+                        Life happens. Get 2 emergency unlocks per week, each giving you 1 hour of app access. No exercise required, no shame attached.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Tools -->
+                    <!-- Illustration Placeholder: Key -->
                     <div class="w-64 h-64 relative">
                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M50,150 L150,50" />
-                            <circle cx="150" cy="50" r="10" />
-                            <rect x="40" y="140" width="20" height="20" transform="rotate(45 50 150)" />
+                            <circle cx="60" cy="100" r="25" />
+                            <circle cx="60" cy="100" r="12" />
+                            <path d="M85,100 L140,100" />
+                            <path d="M120,90 L120,100" />
+                            <path d="M130,90 L130,100" />
                         </svg>
                          <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
                     </div>
@@ -168,20 +178,18 @@
              <!-- Feature 4 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We're in it<br>for the<br>long-haul</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Reflection<br>Questions<br>create pauses</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We support you in creating habits that last, focusing on consistency over intensity.
+                        Before unlocking apps, we ask why you want to open them. These mindful pauses help you reclaim intention, not just time.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Clock -->
+                    <!-- Illustration Placeholder: Question Mark -->
                     <div class="w-64 h-64 relative">
                          <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <circle cx="100" cy="100" r="50" />
-                            <path d="M100,100 L100,70" />
-                            <path d="M100,100 L120,110" />
-                            <path d="M90,40 L110,40" />
+                            <path d="M80,70 Q80,50 100,50 Q120,50 120,70 Q120,85 100,90 L100,110" />
+                            <circle cx="100" cy="130" r="5" fill="black" />
                         </svg>
                          <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
                     </div>
@@ -191,17 +199,20 @@
              <!-- Feature 5 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We know<br>what it<br>takes to<br>show up</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Apple Watch<br>integration<br>coming soon</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We understand the ups and downs. We help you get back on track without shame or guilt.
+                        Automatic rep counting for pushups, squats, and planks. No more manual input—just move and unlock.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Heart -->
+                    <!-- Illustration Placeholder: Watch -->
                     <div class="w-64 h-64 relative">
                          <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M100,160 C100,160 40,100 40,60 C40,30 70,30 100,60 C130,30 160,30 160,60 C160,100 100,160 100,160 Z" />
+                            <rect x="70" y="80" width="60" height="40" rx="8" />
+                            <path d="M70,70 L70,80 L130,80 L130,70" />
+                            <path d="M70,120 L70,130 L130,130 L130,120" />
+                            <circle cx="100" cy="100" r="8" fill="black" />
                         </svg>
                          <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
                     </div>
@@ -215,18 +226,19 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
                 <p class="text-2xl md:text-3xl font-serif leading-relaxed mb-8">
-                    Build good habits, break bad ones, and make better decisions in just five good minutes a day. Get started today and cast a vote for future you.
+                    Reclaim hours you didn't realize you were losing. Transform compulsive phone checking into physical strength and mental clarity.
                 </p>
                 <AppButtons />
             </div>
             <div class="flex justify-center">
-                <!-- Jar Illustration -->
+                <!-- Phone + Dumbbell Illustration -->
                  <div class="w-64 h-64 relative">
                      <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                        <path d="M60,60 L140,60 L140,160 Q140,180 120,180 L80,180 Q60,180 60,160 Z" />
-                        <path d="M55,60 L145,60 L145,40 L55,40 Z" />
-                        <path d="M70,100 L130,100" />
-                        <path d="M70,140 L130,140" />
+                        <rect x="70" y="40" width="60" height="100" rx="8" />
+                        <circle cx="100" cy="30" r="3" fill="black" />
+                        <path d="M40,160 L160,160" stroke-width="3" />
+                        <circle cx="40" cy="160" r="12" />
+                        <circle cx="160" cy="160" r="12" />
                     </svg>
                     <div class="absolute -z-10 bottom-0 left-10 w-40 h-20 bg-[#E6D8C0] rounded-full opacity-50 blur-xl"></div>
                 </div>
@@ -237,9 +249,9 @@
     <!-- Dark Cards Section -->
     <section class="py-24">
         <div class="max-w-4xl mx-auto px-6 mb-16">
-            <h2 class="text-4xl font-serif">Atoms is designed to help you<br>take action.</h2>
+            <h2 class="text-4xl font-serif">Sixteen rewires your daily<br>routines, not just blocks apps.</h2>
             <p class="text-gray-500 mt-4 max-w-md">
-                Our core features are designed to help you build power habits, track progress, and make lasting change.
+                Built for people who work online but want to stay human. Master your technology, don't quit it.
             </p>
         </div>
 
@@ -248,23 +260,24 @@
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-20 text-white relative overflow-hidden flex flex-col md:flex-row items-center gap-12">
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
-                         <div class="p-6 flex flex-col h-full bg-white text-black">
-                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Identity</div>
-                             <h4 class="text-xl font-serif">I am a reader</h4>
-                             <div class="mt-4 space-y-2">
-                                 <div class="p-3 bg-gray-50 rounded-lg flex items-center gap-3">
-                                     <div class="w-4 h-4 rounded-full border border-gray-300"></div>
-                                     <span class="text-sm">Read 10 pages</span>
-                                 </div>
+                         <div class="p-6 flex flex-col h-full bg-white text-black justify-center items-center">
+                             <div class="w-24 h-24 bg-black rounded-2xl flex items-center justify-center mb-6">
+                                 <span class="text-5xl">💪</span>
                              </div>
+                             <h4 class="text-2xl font-serif text-center mb-2">TikTok</h4>
+                             <p class="text-sm text-gray-500 text-center mb-6">Locked until 8:00 PM</p>
+                             <div class="w-full bg-gray-100 rounded-full h-2">
+                                 <div class="bg-black h-2 rounded-full" style="width: 0%"></div>
+                             </div>
+                             <p class="text-xs text-gray-400 mt-2">0 / 30 squats to unlock</p>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Not just habits</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Identity-based<br>habits</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Exercise to unlock</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Your distractions<br>cost movement</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Most apps focus on outcome-based habits. We help you focus on identity-based habits. It's not about what you want to achieve. It's about who you wish to become.
+                        Choose which apps require exercise to unlock. Set custom rep counts. Every time you reach for distraction, you build physical strength instead.
                     </p>
                 </div>
                 <!-- Abstract BG -->
@@ -275,20 +288,30 @@
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-20 text-white relative overflow-hidden flex flex-col md:flex-row-reverse items-center gap-12">
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
-                         <div class="p-6 flex flex-col h-full bg-white text-black items-center justify-center">
-                             <div class="w-20 h-20 rounded-full bg-orange-100 flex items-center justify-center mb-4">
-                                 <span class="text-2xl">🏆</span>
+                         <div class="p-6 flex flex-col h-full bg-white text-black">
+                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Screen Time Bank</div>
+                             <div class="bg-gray-50 rounded-xl p-6 mb-4">
+                                 <h4 class="text-3xl font-serif mb-2">47 min</h4>
+                                 <p class="text-sm text-gray-500">Saved for later</p>
                              </div>
-                             <h4 class="text-xl font-serif text-center">Habit Master</h4>
-                             <p class="text-sm text-gray-500 text-center mt-2">100 Days Streak</p>
+                             <div class="space-y-2">
+                                 <div class="flex justify-between text-sm">
+                                     <span class="text-gray-500">Today earned</span>
+                                     <span class="font-medium">+23 min</span>
+                                 </div>
+                                 <div class="flex justify-between text-sm">
+                                     <span class="text-gray-500">This week</span>
+                                     <span class="font-medium">2h 14min</span>
+                                 </div>
+                             </div>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Supportive environment</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">A journey with<br>support</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Bank your discipline</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Save earned time<br>for later</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Atoms connects you with people on the same journey. Share progress, celebrate wins, and find accountability partners.
+                        Discipline today becomes freedom tomorrow. Bank up to 1 hour of earned screen time and use it when you need it most.
                     </p>
                 </div>
             </div>
@@ -297,79 +320,55 @@
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-20 text-white relative overflow-hidden flex flex-col md:flex-row items-center gap-12">
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
-                         <div class="p-6 flex flex-col h-full bg-white text-black">
-                             <div class="bg-black text-white p-4 rounded-xl mb-4">
-                                 <p class="text-sm font-medium">Time to read!</p>
-                                 <p class="text-xs text-gray-400 mt-1">It's 8:00 PM. Grab your book.</p>
+                         <div class="p-6 flex flex-col h-full bg-white text-black justify-center">
+                             <div class="bg-gray-50 rounded-xl p-6 mb-6 text-center">
+                                 <div class="text-5xl mb-4">🔑</div>
+                                 <h4 class="text-xl font-serif mb-2">Emergency Key</h4>
+                                 <p class="text-sm text-gray-500">1 hour instant access</p>
                              </div>
+                             <div class="text-center text-sm text-gray-500">
+                                 2 keys remaining this week
+                             </div>
+                             <button class="bg-black text-white px-6 py-3 rounded-full w-full font-medium mt-6">
+                                 Use Emergency Key
+                             </button>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Habit reminders</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Everyone<br>needs a nudge</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Life happens</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Emergency keys<br>for urgent needs</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Set up reminders that work for you. Never miss a habit again with our flexible notification system.
+                        Get 2 emergency unlocks per week. Each gives you 1 hour of app access. No exercise required, no judgment. Just flexibility for real life.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Daily Lessons -->
+    <!-- How It Works -->
     <section class="py-24 bg-[#FCFAF7]">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-serif mb-12">Daily Lessons</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Lesson 1 -->
+            <h2 class="text-3xl font-serif mb-12">How It Works</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Step 1 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
                     <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">01</div>
-                    <h3 class="text-2xl font-serif">Make Your Habits Fun</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <h3 class="text-2xl font-serif">Choose your distracting apps</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Instagram, TikTok, Twitter...</div>
                 </div>
-                 <!-- Lesson 2 -->
+                 <!-- Step 2 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
                     <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">02</div>
-                    <h3 class="text-2xl font-serif">Aim to Be Great in 10 Years</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <h3 class="text-2xl font-serif">Set exercise requirements</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Pushups, squats, or planks</div>
                 </div>
-                 <!-- Lesson 3 -->
+                 <!-- Step 3 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
                     <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">03</div>
-                    <h3 class="text-2xl font-serif">Start Small</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <h3 class="text-2xl font-serif">Earn your screen time</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Move to unlock</div>
                 </div>
-                 <!-- Lesson 4 -->
-                <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">04</div>
-                    <h3 class="text-2xl font-serif">Everything is Imperfect</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Book Section -->
-    <section class="py-32 max-w-5xl mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div>
-                <p class="text-2xl font-serif leading-relaxed mb-8">
-                    Get started today with the app based on the NYT best-seller that has already helped over 20 million people.
-                </p>
-                <AppButtons />
-            </div>
-            <div class="flex justify-center relative">
-                <!-- Book Cover Placeholder -->
-                <div class="w-64 aspect-[2/3] bg-[#EAE4D3] shadow-2xl relative flex flex-col items-center justify-center text-center p-6 border-l-4 border-gray-200">
-                    <p class="text-xs uppercase tracking-widest text-gray-500 mb-4">New York Times Bestseller</p>
-                    <h3 class="text-3xl font-serif font-bold text-gray-800 mb-1">Atomic<br>Habits</h3>
-                    <p class="text-sm text-gray-600 mt-4">Tiny Changes,<br>Remarkable Results</p>
-                    <div class="mt-auto pt-8 text-sm font-bold text-gray-800">James Clear</div>
-                    
-                    <!-- Decorative dots -->
-                    <div class="absolute top-4 right-4 w-2 h-2 bg-orange-400 rounded-full"></div>
-                </div>
-                 <div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-[#F2EBE0] rounded-full opacity-50 blur-2xl"></div>
             </div>
         </div>
     </section>
@@ -378,16 +377,16 @@
     <section class="bg-[#1C1C1C] text-white py-32">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-                <h2 class="text-2xl font-serif mb-12">See what people are saying about Atoms</h2>
-                <h3 class="text-5xl md:text-7xl font-serif leading-tight">Love the<br>flexibility.</h3>
+                <h2 class="text-2xl font-serif mb-12">See what people are saying about Sixteen</h2>
+                <h3 class="text-5xl md:text-7xl font-serif leading-tight">Broke my<br>late-night<br>scrolling.</h3>
             </div>
             <div class="flex flex-col justify-end">
                 <p class="text-gray-400 text-lg leading-relaxed mb-8">
-                    "The personalized focus of the habit you create make it unique and non-standardized. Minimalistic but inviting style UI. I never feel overwhelmed, making it a normal, human experience. Love the measurement/assessment and introspection. This program is encouraging but unobtrusive. Great job!"
+                    "I used to scroll TikTok until 2AM every night. Now I'm asleep before midnight. Sixteen doesn't just block apps—it rewires your daily routine. I've reclaimed hours I didn't realize I was losing."
                 </p>
                 <div>
-                    <p class="font-bold">User from USA</p>
-                    <p class="text-sm text-gray-500">App Store Review</p>
+                    <p class="font-bold">Knowledge Worker</p>
+                    <p class="text-sm text-gray-500">App Store Review · 4.9 ⭐</p>
                 </div>
                 <div class="mt-12 flex justify-end">
                     <button class="text-white hover:opacity-70 transition-opacity">
@@ -405,14 +404,14 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="relative z-10">
                 <p class="text-3xl font-serif leading-relaxed mb-8 max-w-md">
-                    Share Atoms with a friend and support each other in making tiny changes for remarkable results.
+                    Join remote knowledge workers who need deep focus but struggle with compulsive phone checking.
                 </p>
                 <AppButtons />
             </div>
             <div class="flex justify-center relative z-10">
                  <PhoneMockup>
                      <div class="flex items-center justify-center h-full bg-white">
-                         <h1 class="text-4xl font-serif">Atoms.</h1>
+                         <h1 class="text-4xl font-serif">Sixteen.</h1>
                      </div>
                  </PhoneMockup>
             </div>
@@ -427,35 +426,26 @@
             <div class="mb-16">
                 <!-- Big Logo -->
                  <div class="relative inline-block">
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Atoms</span>
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none text-red-600">.</span>
-                    <!-- Apple Illustration overlay on the 'o' if possible, or just use text for now as requested 1:1 but simplified -->
-                    <!-- The screenshot shows an apple replacing the 'o' or near it. Let's try to make the 'o' an apple -->
-                     <div class="absolute top-[45%] left-[68%] -translate-x-1/2 -translate-y-1/2 w-[90px] h-[100px] md:w-[130px] md:h-[140px]">
-                         <!-- Apple SVG -->
-                         <svg viewBox="0 0 100 120" class="w-full h-full fill-[#E84E36]">
-                             <path d="M50,30 C30,30 10,40 10,70 C10,100 30,115 50,115 C70,115 90,100 90,70 C90,40 70,30 50,30 Z" />
-                             <path d="M50,30 C50,30 55,10 45,5" stroke="#3E2723" stroke-width="3" fill="none"/>
-                         </svg>
-                     </div>
+                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Sixteen</span>
+                    <span class="text-[120px] md:text-[180px] font-serif leading-none text-black">.</span>
                  </div>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16 text-sm text-gray-600">
                 <div class="flex flex-col gap-3 text-left md:text-center">
-                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Introduction</span>
-                    <a href="#">Method</a>
-                    <a href="#">Story</a>
+                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Product</span>
+                    <a href="#">How It Works</a>
+                    <a href="#">Features</a>
                 </div>
                 <div class="flex flex-col gap-3 text-left md:text-center">
-                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Coaching</span>
-                    <a href="#">1-on-1 Coaching</a>
+                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Resources</span>
+                    <a href="#">Press Kit</a>
                     <a href="#">FAQ</a>
                 </div>
                  <div class="flex flex-col gap-3 text-left md:text-center">
                     <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Company</span>
-                    <a href="#">Newsletter</a>
-                    <a href="#">Contact</a>
+                    <a href="mailto:keshav@sixteen.life">Contact</a>
+                    <a href="#">About</a>
                 </div>
                  <div class="flex flex-col gap-3 text-left md:text-center">
                     <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Legal</span>
@@ -466,13 +456,19 @@
 
             <div class="flex flex-col md:flex-row items-center justify-between w-full border-t border-gray-200 pt-12 gap-8">
                 <div class="text-xs text-gray-400">
-                    © 2024 Atoms Inc.
+                    © 2024 Tropolin Labs Private Limited
                 </div>
                 <div class="flex gap-6">
                     <!-- Social Icons -->
-                    <a href="#" class="w-5 h-5 bg-gray-300 rounded-full"></a>
-                    <a href="#" class="w-5 h-5 bg-gray-300 rounded-full"></a>
-                    <a href="#" class="w-5 h-5 bg-gray-300 rounded-full"></a>
+                    <a href="https://instagram.com/sixteen_app" class="text-gray-400 hover:text-gray-900 transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/company/sixteenapp" class="text-gray-400 hover:text-gray-900 transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="https://x.com/sixteenapp" class="text-gray-400 hover:text-gray-900 transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
                 </div>
                 <div>
                      <AppButtons />
